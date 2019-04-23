@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
+
 import Layout from '../components/layout'
 
-
 const IndexPage = () => {
-    return <div>
+    return (
         <Layout>
-            <h1>Hello</h1>
-            <h2>I am king of the bongo</h2>
-            <p>Go to <Link to="/contact">Contact</Link></p>
+            <h1>Hello.</h1>
+            <h2>I'm Kingkong, a full-stack developer.</h2>
+            <p>Need a developer? <Link to="/contact">Contact me.</Link></p>
         </Layout>
-    </div>
+    )
 }
 
 export default IndexPage
